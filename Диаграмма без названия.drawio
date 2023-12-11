@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" modified="2023-12-11T17:14:07.930Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="j9O0UJQbQy2MdTIGlShQ" version="22.1.7" type="device">
+  <diagram name="Страница — 1" id="qFj_Iks7OevsuF-VKvXr">
+    <mxGraphModel dx="838" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KWMBAIV2-Y0OXuirEiIH-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KWMBAIV2-Y0OXuirEiIH-1" target="KWMBAIV2-Y0OXuirEiIH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMBAIV2-Y0OXuirEiIH-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMBAIV2-Y0OXuirEiIH-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KWMBAIV2-Y0OXuirEiIH-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWMBAIV2-Y0OXuirEiIH-2" value="string1 = [...];&lt;br&gt;string result = 0 ;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="120" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMBAIV2-Y0OXuirEiIH-7" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KWMBAIV2-Y0OXuirEiIH-5" target="KWMBAIV2-Y0OXuirEiIH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMBAIV2-Y0OXuirEiIH-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KWMBAIV2-Y0OXuirEiIH-5" target="KWMBAIV2-Y0OXuirEiIH-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMBAIV2-Y0OXuirEiIH-16" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KWMBAIV2-Y0OXuirEiIH-15">
+          <mxGeometry x="0.05" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWMBAIV2-Y0OXuirEiIH-5" value="for(int n=0; n&amp;lt;string1.Length;n++;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMBAIV2-Y0OXuirEiIH-9" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KWMBAIV2-Y0OXuirEiIH-6" target="KWMBAIV2-Y0OXuirEiIH-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="420" />
+              <mxPoint x="370" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWMBAIV2-Y0OXuirEiIH-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KWMBAIV2-Y0OXuirEiIH-6" target="KWMBAIV2-Y0OXuirEiIH-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="525" y="420" />
+              <mxPoint x="525" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWMBAIV2-Y0OXuirEiIH-12" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KWMBAIV2-Y0OXuirEiIH-11">
+          <mxGeometry x="-0.1333" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWMBAIV2-Y0OXuirEiIH-6" value="string1[n] &amp;lt;=3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMBAIV2-Y0OXuirEiIH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KWMBAIV2-Y0OXuirEiIH-8" target="KWMBAIV2-Y0OXuirEiIH-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWMBAIV2-Y0OXuirEiIH-8" value="result[n] = string[n]" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMBAIV2-Y0OXuirEiIH-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KWMBAIV2-Y0OXuirEiIH-14" target="KWMBAIV2-Y0OXuirEiIH-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMBAIV2-Y0OXuirEiIH-14" value="print result" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMBAIV2-Y0OXuirEiIH-17" value="end" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="400" width="145" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
